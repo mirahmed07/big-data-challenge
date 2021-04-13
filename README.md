@@ -14,17 +14,19 @@ The first goal for this assignment will be to perform the ETL process completely
 
 Following files are attached:
 
-1. <a href="https://github.com/mirahmed07/Big-Data-Challenge//main/level-1/Big_Data_Level_1.ipynb">Big_Data_Level_1.ipynb</a>: Level 1 ETL with **Luggage Reivews**
+1. <a href="https://github.com/mirahmed07/big-data-challenge/blob/master/level-1/Home_Improvement.ipynb">Home_Improvement.ipynb</a>: Level 1 ETL with **Home Improvement**
 
-2. <a href="https://github.com/kk-deng/Big-Data-Challenge/blob/main/level-1/Big_Data_Level_1_2.ipynb">Big_Data_Level_1_2.ipynb</a>: Level 1 ETL with **Gift Card Reivews**
+2. <a href="https://github.com/mirahmed07/big-data-challenge/blob/master/level-1/musical_instruments.ipynb">musical_instruments.ipynb</a>: Level 1 ETL with **Musical Instrument**
 
-3. <a href="https://github.com/kk-deng/Big-Data-Challenge/blob/main/level-2/Big_Data_Level_2.ipynb">Big_Data_Level_2.ipynb</a>: Big Data Analysis on Vine Reviews
+3. <a href="https://github.com/mirahmed07/big-data-challenge/blob/master/level-2/Vine_analysis.ipynb">Vine_analysis.ipynb</a>: Big Data Analysis on Vine Reviews
 
 
 # Conclusion
 
-* We can see that the percentage of **5-star reviews** in Vine is very close to non-Vine reviews *(51% to 50.5%)*.
+* We can see that the percentage of 5-star reviews in Vine is not close to non-Vine reviews (43.396% to 32.802%). Which means that vine reviews are biased not accurate.
 
-* Although the number of Vine reviews is pretty low, so far it can still represent the product. However, the **average rating from Vine customers is 4.38** with **std deviation of 0.78**, and this is much higher than the **3.77 (std deviation: 1.51) from non-Vine customers**. It is obvious that **non-Vine reviews are more diverse than Vine reviews** which got motivated to give higher ratings.
+* Although the number of Vine reviews is pretty low, so far it can still represent the product. However, the average rating from Vine customers is 4.05  with std deviation of 1.12, whereas the average rating from Vine customers is 3.48 with std deviation of 1.44.
 
-* I believe the Vine customers tend to give higher ratings and pretty focusing on the higher ratings too. So reviews from Vine customers **are not that trustworthy** for me.
+* The average rating for vines varies from category to category. For example, average rating for musical instruments is way higher than home improvement products. So be careful when purchasing musical instruments as the vine reviews might skew your view.
+
+* I believe the Vine customers tend to give higher ratings and pretty focusing on the higher ratings too. So reviews from Vine customers are not that trustworthy for me.
